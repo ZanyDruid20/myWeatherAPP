@@ -1,0 +1,74 @@
+/* main.css */
+
+/* General styling for the body */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0; /* Light gray background */
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh; /* Ensures full viewport height */
+}
+
+/* Styling for the header */
+header {
+    background-color: #007BFF; /* Blue background */
+    color: white;
+    text-align: center;
+    padding: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Adding shadow for depth */
+}
+
+/* Styling for the main content */
+main {
+    max-width: 800px;
+    width: 90%; /* Responsive width */
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #ffffff; /* White background */
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Adding shadow for depth */
+}
+
+/* Styling for the footer */
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #007BFF; /* Blue background */
+    color: white;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    box-shadow: 0 -2px 4px rgba(0, 0, 0, 0.1); /* Adding shadow for depth */
+}
+
+/* Styling for the form */
+form {
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+}
+
+/* Styling for labels, inputs, and buttons */
+label, input, button {
+    margin-bottom: 10px;
+    width: 100%; /* Full width */
+}
+
+/* Styling for the button */
+button {
+    padding: 12px; /* Increased padding for better touch experience */
+    background-color: #007BFF; /* Blue background */
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+/* Hover effect for the button */
+button:hover {
+    background-color: #0056b3; /* Darker shade of blue for hover */
+}
